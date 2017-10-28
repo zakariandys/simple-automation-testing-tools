@@ -1,0 +1,18 @@
+Skenario test berikut memiliki beberapa asumsi, yang diantaranya adalah sebagai berikut
+	1. Web driver akan me-redirect ke dummy url https://bukalapak.com/transaction?transaction_id={TRX_ID}
+	2. Id dari web element yang digunakan merupakan dummy id, yang diasumsikan sebagai id element sebenarnya pada halaman website
+
+================================================SKENARIO TEST===========================================================
+
+1. Memperoleh semua data transaksi pada tabel transaction yang terdapat di database bukalapak_transaction berdasarkan date range tertentu, sesuai dengan kebutuhan.
+   Pada case ini, date range yang digunakan adalah tanggal 1 Oktober 2017 s/d 31 Oktober 2017.
+
+2. Me-redirect url https://bukalapak.com/transaction/ dengan menyertakan transaction_id sebagai parameter untuk menuju ke halaman transaction terkait.
+
+3. Memperoleh value dari setiap elemen web Transaction Id, Seller, Delivery Service, Date Order dan Address Shipment pada halaman tersebut.
+
+4. Mengeksekusi test case, dengan menyocokan setiap data yang diperoleh dari database dengan value dari web element yang juga telah diperoleh dari halaman website.
+
+5. Menyertakan report dari hasil test yang telah dilakukan.
+
+6. Mengulangi test case dengan date range yang berbeda.
