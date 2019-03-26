@@ -1,8 +1,8 @@
 This project has build with :
-  *Java
-  *MySQL
-  *Selenium web driver
-  *TestNG
+  *Java\n
+  *MySQL\n
+  *Selenium web driver\n
+  *TestNG\n
   *IntellijIDEA as IDE
 
 
