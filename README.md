@@ -1,9 +1,4 @@
-This project has build with :
-  *Java\n
-  *MySQL\n
-  *Selenium web driver\n
-  *TestNG\n
-  *IntellijIDEA as IDE
+This project has build with : Java, MySQL, Selenium web driver, TestNG, IntellijIDEA as IDE
 
 
 Clone this repository
